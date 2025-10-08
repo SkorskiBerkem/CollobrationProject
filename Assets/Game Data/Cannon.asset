@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcb056a92f7c53e4997a468ac827cf1a, type: 3}
+  m_Name: Cannon
+  m_EditorClassIdentifier: 
+  turretType: 0
+  rootNode:
+    skillID: 1
+    skillName: Faster Bullets
+    cost: 500
+    bonusDamage: 0
+    bonusSpeed: 15
+    childrens:
+    - skillID: 2
+      skillName: Bullet Rain
+      cost: 800
+      bonusDamage: 0
+      bonusSpeed: 25
+      childrens: []
+    - skillID: 3
+      skillName: Penetrating bullets
+      cost: 700
+      bonusDamage: 30
+      bonusSpeed: 0
+      childrens: []
